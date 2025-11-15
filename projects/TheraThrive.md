@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/TheraThrive.jpg
 title: "TheraThrive"
 date: April 2025
 published: true
