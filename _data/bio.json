@@ -1,26 +1,23 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Thavishka Gamage",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "picture": "https://github.com/thavishkagamage.png",
+    "email": "gamagetd@mail.uc.edu",
+    "website": "https://thavishkagamage.github.io",
+    "summary": "Thavishka Gamage is at the University of Cincinnati’s College of Engineering and Applied Science (CEAS), where he is pursuing a Master of Engineering (MEng) in Industrial & Systems Engineering and previously earned a Bachelor of Science (B.S.) in Computer Science. Passionate about leveraging knowledge in science, technology, engineering, and mathematics, he thrives on creating innovative solutions and leading transformative projects. He has demonstrated his capabilities through a variety of research, co-op, and internship experiences, gaining hands-on expertise in software development, data analysis, and project management. Believing in continuous learning, he actively seeks growth opportunities through shadowing and volunteering. He is also passionate about startups, both in building his own ventures and contributing to early-stage companies that focus on innovation. With a strong foundation in both technical and financial domains, he is dedicated to making a significant impact in the technology and finance industries, guided by a clear vision for leadership and excellence.",
+    "location": { "address": "", "postalCode": "", "city": "Cincinnati", "countryCode": "USA", "region": "Ohio" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "thavishkagamage", "url": "http://github.com/thavishkagamage" },
+      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/havishkagamage" },
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Computer Science" },
+    { "name": "Artificial Intelligence" },
+    { "name": "Machine Learning" },
+    { "name": "Deep Learning" },
+    { "name": "Cloud Computing" }
   ],
   "skills": [
     {
