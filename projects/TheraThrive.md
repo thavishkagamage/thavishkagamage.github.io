@@ -32,5 +32,12 @@ The platform guides users through structured CBT conversations using static prom
 - PostgreSQL (data storage)  
 - OpenAI API (AI chatbot and CBT dialogue)  
 
-**GitHub repository:**  
-[Integrated-Therapy-Software](https://github.com/thavishkagamage/Integrated-Therapy-Software)
+<p>
+  <a href="https://github.com/thavishkagamage/Integrated-Therapy-Software"
+     class="btn btn-outline-dark"
+     target="_blank"
+     rel="noopener noreferrer">
+    View on GitHub
+  </a>
+</p>
+
