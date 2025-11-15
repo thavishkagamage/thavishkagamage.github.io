@@ -15,7 +15,7 @@ summary: "Full-stack AI chatbot that delivers guided CBT sessions to make mental
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="img/TheraThrive.jpg" class="img-thumbnail" >
+  <img width="300px" src="img/TheraThrive.jpg" class="img-thumbnail" >
 </div>
 
 TheraThrive is a full-stack web application that delivers guided Cognitive Behavioral Therapy (CBT) sessions through an AI-powered chatbot. It is designed to make mental health support more accessible for people who struggle with depression, low motivation, or social withdrawal.
