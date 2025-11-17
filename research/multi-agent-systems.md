@@ -39,7 +39,7 @@ I am a Research Assistant in the College of Engineering and Applied Science at t
      target="_blank"
      rel="noopener noreferrer"
      class="btn btn-outline-dark">
-    View Lab Students Page
+    View Research Group
   </a>
 </p>
 
