@@ -13,7 +13,9 @@ labels:
   - AWS
 summary: "Research on coordination, emergent behavior, and optimization in multi-agent large language model systems."
 ---
-
+<div class="text-center p-4">
+  <img width="300px" src="/img/code.jpg" class="img-thumbnail">
+</div>
 
 I am a Research Assistant in the College of Engineering and Applied Science at the University of Cincinnati, working with Prof. Tommaso Giovannelli on multi-agent large language model (LLM) systems.
 
