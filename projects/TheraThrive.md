@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/TheraThrive.jpg
 title: "TheraThrive"
-date: April 2025
+date: August 2024 - May 2025
 published: true
 labels:
   - React.js
