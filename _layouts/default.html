@@ -40,23 +40,29 @@
 
     <title>{{ title }}</title>
   </head>
-    <body>
+  <body>
   {{ content }}
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
           crossorigin="anonymous"></script>
 
   <script>
-    // Prevent browser from restoring old scroll position
+    // Turn off automatic scroll restoration (especially on mobile)
     if ('scrollRestoration' in history) {
       history.scrollRestoration = 'manual';
     }
-    // If there is no #anchor in the URL, always start at the top
-    if (!window.location.hash) {
-      window.scrollTo(0, 0);
-    }
+
+    // Always start at the top when there is no #anchor in the URL
+    window.addEventListener('load', function () {
+      if (!window.location.hash) {
+        window.scrollTo(0, 0);
+      }
+    });
   </script>
   </body>
+</html>
+
 </html>
 
 </html>
