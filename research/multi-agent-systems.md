@@ -35,11 +35,12 @@ I am a Research Assistant in the College of Engineering and Applied Science at t
 **Advisor:** Prof. Tommaso Giovannelli  
 
 <p class="mt-4">
-  <a href="[https://sites.google.com/view/tommasogiovannelli/home](https://sites.google.com/view/tommasogiovannelli/students?authuser=0)"
+  <a href="https://sites.google.com/view/tommasogiovannelli/students?authuser=0"
      target="_blank"
      rel="noopener noreferrer"
      class="btn btn-outline-dark">
-    View Research Group
+    View Lab Students Page
   </a>
 </p>
+
 
