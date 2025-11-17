@@ -40,7 +40,7 @@
 
     <title>{{ title }}</title>
   </head>
-  <body>
+    <body>
   {{ content }}
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -48,19 +48,21 @@
           crossorigin="anonymous"></script>
 
   <script>
-    // Turn off automatic scroll restoration (especially on mobile)
+    // Turn off scroll restoration where supported
     if ('scrollRestoration' in history) {
       history.scrollRestoration = 'manual';
     }
 
-    // Always start at the top when there is no #anchor in the URL
+    // Always start at the very top on first load
     window.addEventListener('load', function () {
-      if (!window.location.hash) {
-        window.scrollTo(0, 0);
-      }
+      window.scrollTo(0, 0);
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
     });
   </script>
   </body>
+</html>
+
 </html>
 
 </html>
