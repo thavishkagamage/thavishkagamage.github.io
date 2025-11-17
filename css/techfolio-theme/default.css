@@ -48,25 +48,31 @@ a {
   background-color: var(--bs-white);
   border-top: none;
 
-/* Back to top button */
+/* Back to top button – fixed bottom-right, clearly visible */
 .back-to-top {
   position: fixed;
-  bottom: 2rem;      /* distance from bottom */
-  right: 1.5rem;     /* distance from right side */
-  z-index: 1030;
+  bottom: 4rem;           /* move it up from the bottom */
+  right: 1.5rem;          /* space from the right edge */
+  left: auto !important;  /* make sure it's not stuck on the left */
+  z-index: 2000;
   display: none;
-  padding: 0.4rem 0.65rem;
-  font-size: 1.1rem;
+
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  font-size: 1.4rem;
   line-height: 1;
   border-width: 1px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+
+  align-items: center;
+  justify-content: center;
 }
 
 .back-to-top-show {
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
 }
+
 
 
 }
