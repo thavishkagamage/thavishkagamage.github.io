@@ -40,8 +40,16 @@
 
     <title>{{ title }}</title>
   </head>
-    <body>
+  <body>
   {{ content }}
+
+  <!-- Back to top button -->
+  <button id="back-to-top"
+          type="button"
+          class="btn btn-outline-dark rounded-circle back-to-top"
+          aria-label="Back to top">
+    ↑
+  </button>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
@@ -59,8 +67,25 @@
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     });
+
+    // Back to top button logic
+    const backToTop = document.getElementById('back-to-top');
+
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 200) {
+        backToTop.classList.add('back-to-top-show');
+      } else {
+        backToTop.classList.remove('back-to-top-show');
+      }
+    });
+
+    backToTop.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
   </script>
   </body>
+</html>
+
 </html>
 
 </html>
