@@ -33,4 +33,13 @@ I am a Research Assistant in the College of Engineering and Applied Science at t
 - Contribute to future publications in intelligent multi-agent coordination, interpretability, and AI-driven systems engineering.
 
 **Advisor:** Prof. Tommaso Giovannelli  
-[Research group page](https://sites.google.com/view/tommasogiovannelli/home)
+
+<p class="mt-4">
+  <a href="https://sites.google.com/view/tommasogiovannelli/home"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="btn btn-outline-dark">
+    View Research Group
+  </a>
+</p>
+
