@@ -1,21 +1,36 @@
-<div style="background-color: var(--tf-projects-bg-color)" class="bg-gradient py-3" id="research">
-  <div class="container">
-    <div class="row mb-3">
-      <div class="col-md-6">
-        <h1 class="display-6 text-start">Research</h1>
-      </div>
+<div class="card mb-3">
+  <div class="row g-0">
+    <!-- narrower image column -->
+    <div class="col-sm-5 col-md-3">
+      <img
+        src="{{ '/img/code.jpg' | prepend: site.baseurl }}"
+        class="rounded-start img-fluid"
+        style="max-height: 225px; object-fit: cover;"
+      >
     </div>
 
-    <div class="vstack gap-3">
-      {% assign research_pages = site.pages | where: "type", "research" | sort: "date" | reverse %}
-      {% for page in research_pages %}
-        {% unless page.draft %}
-          {% include projects/project-card.html page=page %}
-        {% endunless %}
-        {% if forloop.index == include.limit %}
-          {% break %}
-        {% endif %}
-      {% endfor %}
+    <!-- wider text column -->
+    <div class="col-sm-7 col-md-9">
+      <div class="card-body">
+        <h5 class="card-title">
+          Research Assistant – Multi-Agent LLM Systems
+          <small class="text-muted float-end">October 2025 – Present</small>
+        </h5>
+        <p class="card-text">
+          Research on coordination, emergent behavior, and optimization in multi-agent large language model systems.
+        </p>
+        <p>
+          <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">AI</span>
+          <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">Multi-Agent Systems</span>
+          <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">LLMs</span>
+          <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">Optimization</span>
+          <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">AWS</span>
+        </p>
+        <a href="{{ '/research/multi-agent-systems.html' | prepend: site.baseurl }}"
+           class="btn btn-outline-dark">
+          Read More
+        </a>
+      </div>
     </div>
   </div>
 </div>
