@@ -1,7 +1,7 @@
 ---
 layout: project
 type: research
-image: /img/TheraThrive.jpg
+image: img/TheraThrive.jpg
 title: "Research Assistant – Multi-Agent LLM Systems"
 date: 2025-10-01
 published: true
@@ -13,6 +13,7 @@ labels:
   - AWS
 summary: "Research on coordination, emergent behavior, and optimization in multi-agent large language model systems."
 ---
+
 
 I am a Research Assistant in the College of Engineering and Applied Science at the University of Cincinnati, working with Prof. Tommaso Giovannelli on multi-agent large language model (LLM) systems.
 
