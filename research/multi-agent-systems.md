@@ -1,9 +1,9 @@
 ---
 layout: project
 type: research
-image: img/TheraThrive.jpg
+image: img/code.jpg
 title: "Research Assistant – Multi-Agent LLM Systems"
-date: 2025-10-01
+date: October 2025 - Present
 published: true
 labels:
   - AI
