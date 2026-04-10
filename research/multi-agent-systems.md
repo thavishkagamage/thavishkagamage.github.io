@@ -1,7 +1,7 @@
 ---
 layout: project
 type: research
-image: img/code.jpg
+image: img/healthcare-game-hero.svg
 title: "Multi-Agent LLM Game for Healthcare Decision Support"
 date: October 2025 - Present
 published: true
@@ -16,7 +16,7 @@ labels:
 summary: "Designed and built an educational game combining mathematical optimization with multi-agent LLM debate for healthcare operations decision-making under uncertainty."
 ---
 <div class="text-center p-4">
-  <img width="600px" src="/img/code.jpg" class="img-thumbnail">
+  <img width="600px" src="/img/healthcare-game-hero.svg" class="img-thumbnail">
 </div>
 
 ## Overview
