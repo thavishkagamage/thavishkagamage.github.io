@@ -72,7 +72,7 @@ Across three live debate sessions on the nurse scheduling scenario:
 **Gamage, T.** (2026). "A Multi-Agent LLM Game for Healthcare Decision Support: Combining Mathematical Optimization with AI-Driven Debate for Experiential Learning." Capstone Project, University of Cincinnati.
 
 <p class="mt-4">
-  <a href="/projects/healthcare-game-paper.pdf"
+  <a href="/img/Gamage_MultiAgent_LLM_Healthcare_Game_Capstone_Spring2026.pdf"
      target="_blank"
      rel="noopener noreferrer"
      class="btn btn-outline-primary me-2">
